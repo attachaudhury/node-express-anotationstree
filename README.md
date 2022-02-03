@@ -7,4 +7,5 @@
    4. [](#4) Open browser and hit url `localhost:3000/search?q=Physics`
    5. [](#5) The responce will be array of Questions
    6. [](#6) Change the q(query) with you opwn parameters `localhost:3000/search?q={}`
+   
 
