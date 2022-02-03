@@ -1,5 +1,5 @@
 ## Online link of the Repo
- Online test on [Heroku app](https://duckduckgo.com).
+ Online test on [Heroku app](https://nodeexpressannotations.herokuapp.com/search?q=Physics).
 ## Locally Running
    1. [](#1) Clone repo
    2. [](#2) Install dependencies `yarn` or `npm install` in the root of the repo   
