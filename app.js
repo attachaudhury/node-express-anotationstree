@@ -7,7 +7,7 @@ var searchRoute = require('./routes/SearchRoute');
 var dbSeedService = require('./services/DbSeedService');
 
 // connecting to database
-mongoose.connect("mongodb://localhost:27017/annotations", {
+mongoose.connect("mongodb+srv://root:pNRG0HjDkejqPwUI@cluster0.ltqzp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority", {
    useNewUrlParser: true
 });
 
