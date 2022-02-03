@@ -32,7 +32,10 @@ app.get('/', (req,res)=>{
 app.use('/search', searchRoute);
 
 
-http.createServer(app).listen(3000, () => {
-  console.log('Server started on port 3000');
-  dbSeedService.seedDb();
+// http.createServer(app).listen(3000, () => {
+//   console.log('Server started on port 3000');
+// });
+app.listen(3000, function () {
+  console.log('Example app listening on port 3000!');
+    dbSeedService.seedDb();
 });
